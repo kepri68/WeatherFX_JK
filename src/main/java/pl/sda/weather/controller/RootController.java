@@ -26,6 +26,14 @@ public class RootController {
 
         String text = city.getText();
 
+        //to poniżej wzięliśmy z poprzedniego projektu z pogodą
+         // JsonDataOrg jsonDataOrg = new JsonDataOrg();
+        //        jsonDataOrg.setApiKey("91977fee60544a1e88170057191407");
+        //        jsonDataOrg.setUrl("http://api.apixu.com/v1/current.json");
+        //        jsonDataOrg.setCity("Warszawa");
+        //        jsonDataOrg.build();
+        //        System.out.println(jsonDataOrg.getWeather());
+
         temperature.setText(text);//zmienienie tekstu "Label" po wcisnieciu przycisku "szukaj"
         System.out.println("KLIK");
     }
