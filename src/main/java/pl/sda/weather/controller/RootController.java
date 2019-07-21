@@ -1,5 +1,6 @@
 package pl.sda.weather.controller;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -21,5 +22,7 @@ public class RootController {
     private Label temperature;
 
 
-
+    public void getWeather(ActionEvent actionEvent) {
+        System.out.println("KLIK");
+    }
 }
