@@ -9,7 +9,7 @@
 
 <AnchorPane fx:controller="pl.sda.weather.controller.RootController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="583.0" prefWidth="891.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="574.0" layoutY="168.0" mnemonicParsing="false" prefHeight="133.0" prefWidth="184.0" text="Szukaj" />
+      <Button fx:id="find" layoutX="574.0" layoutY="168.0" mnemonicParsing="false" prefHeight="133.0" prefWidth="184.0" text="Szukaj" />
       <TextField fx:id="city" layoutX="223.0" layoutY="168.0" prefHeight="133.0" prefWidth="321.0">
          <font>
             <Font size="43.0" />
@@ -20,7 +20,7 @@
             <Font size="30.0" />
          </font>
       </Label>
-      <Label layoutX="544.0" layoutY="428.0" text="Label">
+      <Label fx:id="temperature" layoutX="544.0" layoutY="428.0" text="Label">
          <font>
             <Font size="30.0" />
          </font>
