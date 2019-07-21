@@ -23,6 +23,8 @@ public class RootController {
 
 
     public void getWeather(ActionEvent actionEvent) {
+
+        temperature.setText("Nowa wartosc");//zmienienie tekstu "Label" po wcisnieciu przycisku "szukaj"
         System.out.println("KLIK");
     }
 }
